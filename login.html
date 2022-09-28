@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+    }
+    
+    #store{
+        /* border:2px solid blue; */
+        height:350px;
+        width:500px;
+        margin-top: 100px;
+        margin-left: 350px;
+        position:absolute;
+        border-radius: 10px;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvy6Kpccz87WlzwG3tSxkO4ULiavs-exV9zQ&usqp=CAU);
+        background-repeat: no-repeat;
+        
+        
+    }
+    
+    /* #username{
+        margin-top: 20px;
+    
+    }
+#password{
+    margin-top: 30px;
+    
+} */
+.box{
+    margin-top: 20px;
+    width: 100%;
+    height:25px;
+    border-radius: 5px;
+    background-color: white;
+    border:none;
+    border: 1px solid gray;
+    outline: none;
+
+}
+#btn{
+    width:100%;
+    height:25px;
+    background-color: white;
+    
+    border-radius: 5px;
+    margin-top: 20px;
+
+    
+}
+.text_centre{
+    background-color: aliceblue;
+    margin-top: 150px;
+}
+#shivam{
+    background-color: aliceblue;
+}
+
+</style>
+<body>
+<div class="card" id="store">
+    <div class="text_centre">
+        <h1>Log In</h1>
+    </div>
+    <form id="shivam">
+        <label class="form_label">Username</label>
+        <input type="username" placeholder="username" class="box" id="username">
+        <br>
+        <label class="form_label">Password</label>
+        <input type="password" placeholder="password" class="box" id="password">
+        <br>
+        <button id="btn" onclick="getDetails(event)">login</button>
+        
+    </form>
+</div>
+
+    
+</body>
+</html>
+<script src="login.js"></script>
