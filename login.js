@@ -42,6 +42,16 @@ const getDetails =()=>{
         
     // })
 
-
+    const element = document.getElementById("store");
+    element.style.display="none"
     
 }
+
+const element = document.getElementById("store");
+
+function showLogin(){
+    element.style.display = "Block";
+
+}
+
+const login=document.getElementById("btn")
