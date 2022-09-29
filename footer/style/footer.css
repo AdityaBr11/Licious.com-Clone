@@ -265,5 +265,43 @@ grid-template-rows: repeat(auto);
  
 
 }
+#state>div{
+    width: 70%;
+    height: auto;
+  /* border: 1px solid red; */
+  margin-left: 200px;
+ display:flex;
+ position: relative;
+  gap: 10px; 
+}
+.state1{
+    margin-top: -10px;
+}
+.state2{
+    margin-top:-50px;
+}
+.lasta{
+    margin-left: 200px;
+    margin-top:-15px;
+}
+.lastp{
+    margin-left: 270px;
+    margin-top:-35px;
+}
 
+.fp{
+    margin-left:-2px;
+}
+.hr2{
+    width: 60%;
+    margin-left: 350px;
+    margin-top: -10px;
+   
+}
+.hr3{
+    width: 58%;
+    margin-left: 375px;
+    margin-top: -10px;
+    
+}
 
