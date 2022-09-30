@@ -4,222 +4,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <style>
-    h1{
-        text-align: center;
-        /* color: antiquewhite; */
-        margin-top: 200px;
-    }
     
-    #store{
-        /* border:2px solid blue; */
-        height:100%;
-        width:350px;
-        /* margin-top: 100px; */
-        /* margin-left: 350px; */
-        /* position:absolute; */
-        border-radius: 10px;
-        background-image: url(https://www.licious.in/img/rebranding/user-login-new.jpg);
-        /* background-repeat: repeat-y; */
-        /* background-repeat: repeat-x; */
-
-    background-repeat: no-repeat;
-        
-        
-        
-    }
-    
-
-    *{
-    padding: 0px;margin: 0px;
-    box-sizing: border-box;
-    font-family:Lato,sans-serif;
-}
-#navbar-top{
-    border: 0px solid red;
-    width: 100%;
-    height: 25px;
-    background-color: #EAEAEA ;
-    position:fixed;
-    top: 0px;
-}
-#navbar-top p{
-    cursor: pointer;
-}
-.nav{
-    border: 0px solid red;
-    width: 75%;height: 100%;
-    margin: auto;
-    display: flex;
-    gap: 25%;
-
-
-}
-.nav-right{
-    border: 0px solid black;
-    height: 100%;
-    width: 30%;
-    display: flex;
-    font-size: 13px;
-    gap:10px;
-    justify-content: center;
-    align-items: center;
-    color: #4F4F5C ;
-
-
-}
-.nav-right img{
-    width: 16px;height: 16px;
-    cursor: pointer;
-}
-.nav-left{
-    border: 0px solid green;
-    width: 45%;
-    display: flex;
-    font-size: 13px;
-    gap: 15px;
-    justify-content: center;
-    align-items: center;
-    color: #4F4F5C ;
-}
-.nav-left img{
-    width: 11px;height: 9px;
-}
-#d{
-    font-size: 24px;
-    color: #B4B4B4;
-}
-#main-navbar{
-    border: 0px solid red;
-    width: 100%;
-    height: 80px;
-    position: fixed;
-    top: 15px;
-}
-.navbar-part{
-    border: 0px solid black;
-    height: 100%;width: 70%;
-    margin: auto;
-    font-size: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.navbar-part>img{
-    width: 92px;height: 38px;cursor: pointer;
-}
-#loc{
-    display: flex;
-    gap: 4px;cursor: pointer;
-}
-#loc>img{
-    width: 28px;height: 28px;
-}
-#place img{
-    width: 11px;height: 9px;
-}
-.cat{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    cursor: pointer;
-}
-.cat:hover{
-    color: red;
-}
-.log{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;cursor: pointer;
-}
-.log:hover{
-    color: red;
-}
-.ct{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;cursor: pointer;
-}
-#search{
-    height: 80px;
-    border: 1px solid #EAEAEA;
-    height: 40px;
-    width: 370px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: space-between;
-    justify-content: center;
-    align-items: center;
-    padding-left: 15px;padding-right:10px;
-    background-color: #F8F8F8;
-}
-#search img{
-    width: 24px;height: 24px;
-}
-#search input{
-    background-color: #F8F8F8;
-    height: 40px;
-    width: 370px;
-    font-size: 16px;
-    line-height: 22.5px;
-    border: none;
-    outline: none;
-}
-    
-    /* #username{
-        margin-top: 20px;
-    
-    }
-#password{
-    margin-top: 30px;
-    
-} */
-.box{
-    /* margin-top: 20px; */
-    width: 100%;
-    height:25px;
-    border-radius: 5px;
-    /* background-color: white; */
-    border:none;
-    border: 1px solid gray;
-    outline: none;
-
-}
-#btn{
-    width:100%;
-    height:25px;
-    background-color: white;
-    
-    border-radius: 5px;
-    margin-top: 20px;
-
-    
-}
-.text_centre{
-    background-color: aliceblue;
-    /* margin-top: 150px; */
-}
-#shivam{
-    /* margin-top: 100px; */
-    background-color: aliceblue;
-    
-}
-
-#store{
-    display:none;
-}
-
-.login_section{
-    position: absolute;
-    right: 0;
-    top: 0;
-}
 </style>
 <body>
     <div id="navbar-top">
@@ -271,21 +59,32 @@
         </div>
     </div>
 <div class="card login_section" id="store">
-    <div class="text_centre">
-        <h1>Log In</h1>
+    <div class="header">
+        <div class="close"></div>
+        <div class="logo">
+            <a href="#">
+                <img src="https://www.licious.in/img/rebranding/logo-white.png" alt="logo">
+            </a>
+        </div>
     </div>
-
-    <form id="shivam">
-        <label class="form_label" >Username</label>
-        <input type="username" placeholder="username" class="box" id="username">
-        <br>
-        <label class="form_label">Password</label>
-        <input type="password" placeholder="password" class="box" id="password">
-        <br>
-        <button id="btn" onclick="getDetails(event)">login</button>
+    <div class="login_form">
+        <div class="text_centre">
+            
+            Signup/Login
+        </div>
         
-    </form>
     
+        <form id="shivam">
+            <!-- <label class="form_label" >Username</label> -->
+            <input type="username" placeholder="USERNAME" class="box" id="username">
+            <br>
+            <!-- <label class="form_label">Password</label> -->
+            <input type="password" placeholder="PASSWORD" class="box" id="password">
+            <br>
+            <button id="btn" type="button" onclick="getDetails(event)">Login</button>
+            
+        </form>
+    </div>
 </div>
 
     
