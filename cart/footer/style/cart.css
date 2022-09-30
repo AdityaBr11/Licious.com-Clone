@@ -314,6 +314,7 @@
    }
 
   #cart_header{
+    display: flex;
     width: 100%;
     height: 14%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -392,20 +393,85 @@
     font-size: 15px;
 }
 #total{
-    border: 1px solid green;
-    width: 100%;
+  
+    width: 370px;
     height: 60px;
     display: flex;
-    margin-top: -330px;
-    position: fixed;
-    /* background-color: red; */
-}
-#total>div{
     justify-content: space-between;
-    /* border: 1px solid red; */
-    width: 50%;
+    margin-top: -540px;
+    margin-left: 10px;
+    position: fixed;
+    padding: initial;
+    
+
+  
+    
+  
 }
+#st{
+ 
+    display: flex;
+    justify-content: space-between;
+
+ 
+
+}
+#st>p{
+    margin-left: -18px;
+    margin-bottom: 5px;
+}
+
+#str{
+    margin-top: 13px;
+    margin-right: 18px;
+    color: gray;
+}
+#cut{
+   position: fixed;
+  margin-left: 46px;
+ cursor: pointer;
+ border: 1px solid red;
+
+}
+
+#cancelCart{
+width: 35px;
+}
+
+
+  #sum{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    height: auto;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color:white;
+    color: rgba(0,0,0,.87);
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    opacity: 3;
+} 
 #pay_div{
-border: 1px solid red;
-background-color:white;
+    width: 50%;
+    height: auto;
+    background-color:#D11243;
+    color: white;
+    text-align: center;
+    font-size: 2px;
+    border-radius: 5px;
+} 
+#pay{
+    font-size: 15.5px;
+    color: whitesmoke;
+    padding-left: 10px;
+
+}
+
+
+#mySidenav{
+   border: 1px solid rgb(201, 191, 191);
+    background-color: rgb(251,251,251);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 }
