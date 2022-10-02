@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+    
+</style>
+<body>
+    <div id="navbar-top">
+        <div class="nav">
+            <div class="nav-right">
+                <p>Why Licious?</p>
+                <p id="d">•</p>
+                <p>Download App </p>
+                <img src="https://www.licious.in/img/rebranding/ios_app_icon.svg" alt="">
+                <img src="https://www.licious.in/img/rebranding/android_app_icon.svg" alt="">
+            </div>
+            <div class="nav-left">
+                <p>FSSC 22000 Certification</p>
+                <p id="d">•</p>
+                <p>About Us</p>
+                <p id="d">•</p>
+                <p>Careers @Licious</p>
+                <p id="d">•</p>
+                <p>Contact Us <img src="https://www.licious.in/img/rebranding/down-arrow.png" alt=""></p>
+            </div>
+        </div>
+    </div>
+    <div id="main-navbar">
+        <div class="navbar-part">
+            <img src="https://www.licious.in/img/rebranding/licious-logo.svg" alt="">
+            <div id="loc">
+                <img src="https://www.licious.in/img/rebranding/location_icon.svg" alt="">
+                <div id="place">
+                    <p>BENGALURU</p>
+                    <p>Bangalore, Karnatak...<img src="https://www.licious.in/img/rebranding/down-arrow.png" alt=""></p>
+                </div>
+            </div>
+            <div id="search">
+                <input type="text" placeholder="Search for any delicious product">
+                <img src="https://www.licious.in/img/rebranding/search_icon.svg" alt="">
+            </div>
+            <div class="cat">
+                <img src="https://www.licious.in/img/rebranding/category-dropdown-icon.svg" alt="">
+                <p>Categories</p>
+            </div>
+            <div class="log">
+                <img src="https://www.licious.in/img/rebranding/profile_icon.svg" alt="">
+                <p onclick="showLogin()" id="butt">Login</p>
+                <p id="logged_in_user"></p>
+            </div>
+            <div class="ct">
+                <img src="https://www.licious.in/img/rebranding/cart_icon.svg" alt="">
+                <p>Cart</p>
+            </div>
+            <div>
+                <p  id="log_out" onclick="logout()">Log out</p>
+            </div>
+        </div>
+    </div>
+<div class="card login_section" id="store">
+    <div class="header">
+        <div class="close"></div>
+        <div class="logo">
+            <a href="#">
+                <img src="https://www.licious.in/img/rebranding/logo-white.png" alt="logo">
+            </a>
+        </div>
+    </div>
+    <div class="login_form">
+        <div class="text_centre">
+            
+            Signup/Login
+        </div>
+        
+    
+        <form id="shivam">
+            <!-- <label class="form_label" >Username</label> -->
+            <input type="username" placeholder="USERNAME" class="box" id="username">
+            <br>
+            <!-- <label class="form_label">Password</label> -->
+            <input type="password" placeholder="PASSWORD" class="box" id="password">
+            <br>
+            <button id="btn" type="button" onclick="getDetails(event)">Login</button>
+            
+        </form>
+    </div>
+</div>
+
+    
+</body>
+</html>
+<script src="login.js"></script>
