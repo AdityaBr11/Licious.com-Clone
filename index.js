@@ -1624,6 +1624,10 @@ console.log(data);
 //     console.log(ele.title1);
 //     console.log(data[0].data1[0]);
 // })
+// localStorage.removeItem('cart-items');
+
+let arr=JSON.parse(localStorage.getItem('cart-items'))||[];
+let total=0;
 
 const AppendData=(data)=>{
     let main_div=document.getElementById('categories-body');
@@ -1651,6 +1655,20 @@ const AppendData=(data)=>{
     })
 };
 AppendData(data);
+
+//price part
+let cart_data=JSON.parse(localStorage.getItem('cart-items'));
+let z=cart_data.length;
+console.log(z);
+// console.log(cart_data);
+cart_data.forEach(ele=>{
+    total+=ele.price;
+    
+})
+let x=document.getElementById("price");
+x.innerText=`₹${total}`;
+let y=document.querySelector('.no');
+y.innerText=z;
 
 
 

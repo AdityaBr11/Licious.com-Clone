@@ -7,7 +7,10 @@ console.log(title);
 document.getElementById('title-name').innerText=title;
 document.getElementById('title').innerText=title;
 
+// let arr=[];
+let arr=JSON.parse(localStorage.getItem('cart-items'))||[];;
 
+let total=0;
 const AppendData=(data)=>{
     let main_div=document.getElementById('store');
     main_div.innerHTML=null;
@@ -41,9 +44,26 @@ const AppendData=(data)=>{
         let btn=document.createElement("button");
         btn.setAttribute('class','btn')
         btn.innerText="ADD TO CART";
+        
         btn.onclick=()=>{
-            console.log(ele.price);
+            
+            arr.push(ele);
+            // let p=JSON.parse(localStorage.getItem("price"));
+            // console.log(arr);
+            console.log(arr);
+
+            // for(i=0;i<arr.length;i++){
+            //     total=+arr[i];
+            // }
+            // console.log(total);
+            console.log(total);
+            
+            
+            
+            localStorage.setItem('cart-items',JSON.stringify(arr));
+            window.location.reload();
         }
+        
 
 
         div1.append(pric,btn);
@@ -58,3 +78,21 @@ AppendData(data);
 document.getElementById('home').addEventListener('click',function(){
     window.location.href="index.html"
 });
+
+//price part
+let cart_data=JSON.parse(localStorage.getItem('cart-items'));
+let z=cart_data.length;
+console.log(z);
+// console.log(cart_data);
+cart_data.forEach(ele=>{
+    total+=ele.price;
+    
+})
+let x=document.getElementById("price");
+x.innerText=`₹${total}`;
+let y=document.querySelector('.no');
+y.innerText=z;
+
+
+
+

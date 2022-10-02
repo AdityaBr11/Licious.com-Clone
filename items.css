@@ -2,6 +2,7 @@
     padding: 0px;margin: 0px;
     box-sizing: border-box;
     font-family:Lato,sans-serif;
+    transform: 0.5s;
     
 }
 /* navbar part start from here */
@@ -137,16 +138,18 @@
     gap: 8px;cursor: pointer;
 }
 .no{
-    border: 1px solid red;
+    border: 0px solid red;
     width:16px;height:16px;
     position: absolute;
-    top: 25px;right:216px;
+    top: 21px;right:232px;
     align-items: center;
     justify-content: center;text-align: center;
     border-radius:11px;
-    background-color: #db436a;
-    color: #eaeaea;
-    display:none;
+    /* background-color: #db436a; */
+    font-size: 14px;
+    
+    color: black;
+    
     
 }
 #search{
@@ -240,17 +243,22 @@ hr{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 18px;
+    background-color: #f7f7f7;
     
 }
-#store div{
+#store>div{
     border: 0px solid black;
     border-radius:6px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    /* box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px; */
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    
    
 }
 #store img{
     width: 100%;
     border-radius:6px 6px 0px 0px;
+    cursor: pointer;
 }
 .div1{
     display: flex;
@@ -259,6 +267,7 @@ hr{
     margin-bottom:26px;
     margin-top:10px;
     padding: 0px 12px 0 12px;
+    border: none;
 
 }
 .btn{
