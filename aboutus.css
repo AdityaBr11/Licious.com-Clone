@@ -604,3 +604,12 @@ a{
     font-size: 12px;
     justify-content: left;
 }
+
+#citiesweserve{
+    display: grid;
+    grid-template-columns: repeat(12,90px);
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 20px;
+    font-size: 12px;
+    justify-content: left;
+}
