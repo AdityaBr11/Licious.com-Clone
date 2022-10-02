@@ -13,20 +13,41 @@ let store=[{
 }
 
 ]
+let username_element=document.getElementById("username");
+let password_element=document.getElementById("password");
 
-
+let log_in_element=document.getElementById("butt");
+let user_element=document.getElementById("logged_in_user");
+let log_out_element=document.getElementById("log_out");
+log_out_element.style.display="none";
+user_element.style.display="none";
+let flag=false;
 
 const getDetails =()=>{
     event.preventDefault()
-    username=document.getElementById("username").value;
-    password=document.getElementById("password").value;
-    let flag=false;
+    
+   
+  
+    let username=username_element.value;
+    let password=password_element.value;
+    
+   
     for(let i=0;i<store.length;i++){
         if(store[i].username==username&&store[i].password==password){
             flag=true;
         }
     }
     if(flag==true){
+        
+        // let log_in_element=document.getElementById("butt")
+        // console.log(log_in_element)
+        log_in_element.style.display="none";
+        log_out_element.style.display="block";
+
+        
+        // let user_element=document.getElementById("logged_in_user")
+        user_element.style.display="block"
+        user_element.innerHTML=username;
         alert("log in succefull")
     }
     else{
@@ -44,6 +65,7 @@ const getDetails =()=>{
 
     const element = document.getElementById("store");
     element.style.display="none"
+  
     
 }
 
@@ -55,3 +77,16 @@ function showLogin(){
 }
 
 const login=document.getElementById("btn")
+const logout=()=>{
+    flag=false;
+    if(flag===false){
+        log_in_element.style.display="block";
+        user_element.style.display="none";
+        log_out_element.style.display="none";
+        username_element.value="";
+        password_element.value="";
+    
+
+    }
+
+}
