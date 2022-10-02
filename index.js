@@ -1670,5 +1670,346 @@ x.innerText=`₹${total}`;
 let y=document.querySelector('.no');
 y.innerText=z;
 
+let amount=document.getElementById('amount');
+amount.innerText=`₹${total}`;
+
+let Subtotal=document.getElementById('Subtotal');
+Subtotal.innerText=`₹${total}`;
+
+let Total=document.getElementById('Total');
+Total.innerText=`₹${total}`;
+
+// console.log(cart_data);
+function cartIteams(){
+    let itms=document.getElementById('itms');
+    cart_data.forEach(function(ele,k){
+        
+
+        
+        let ma=document.createElement('div');
+        ma.setAttribute('class','main-div')
+
+        let div1=document.createElement('div');
+        div1.setAttribute('class','fdiv')
+        let p=document.createElement('p');
+        p.innerText='*';
+        
+        
+        let div2=document.createElement('div');
+        div2.setAttribute('class','mid-div')
+        let tit=document.createElement('h5');
+        tit.innerText=ele.title1;
+
+        let div20=document.createElement('div');
+        let pric=document.createElement('h4');
+        pric.innerText=`₹${ele.price}`;
 
 
+        let Q=document.createElement('button');
+        Q.innerText=ele.quantity;
+        div20.append(Q,pric);
+
+        let div3=document.createElement('div');
+        div3.setAttribute('class','last-div');
+        let i=document.createElement('i');
+        i.setAttribute('class','ri-close-line');
+        i.addEventListener("click",del)
+       function del(){
+        event.target.parentNode.remove()
+        cart_data.splice(k,1)
+            localStorage.setItem("cart-items",JSON.stringify(cart_data))
+            x.innerText=Number(x.innerText)-Number(ele.price);
+            window.location.reload();
+      } 
+
+        let div30=document.createElement('div');
+        let plus=document.createElement('button');
+        plus.innerText="-"
+        let no=document.createElement('p');
+        no.innerText='1'
+        let minus=document.createElement('button');
+        minus.innerText='+';
+        div30.append(plus,no,minus);
+
+        div1.append(p);
+        div2.append(tit,div20);
+        div3.append(i,div30);
+        ma.append(div1,div2,div3)
+        itms.append(ma);
+        // console.log(ele.title1);
+    })
+}
+cartIteams()
+// thakur bhai js file
+function openNav() {
+    let cart_div= document.getElementById("mySidenav")
+   cart_div.style.width = "30%";
+   document.getElementById("cut").style.marginLeft="-46px"
+   
+   
+   cart_div.style.backgroundColor="white"
+   }
+   
+   function closeNav() {
+     document.getElementById("mySidenav").style.width = "0";
+   }
+   
+   
+   
+   let array=[
+       {
+           Image:"https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/eb0de06a-d96a-c786-1de9-1bd9cadbb89b/original/ChickenLollipopPiecesHeroShot.jpg",
+           title:"Chicken Lollipop - Pack of 10",
+           price:"10Pieces |  ₹166  ",
+           s:"₹175",
+       },
+       {
+           Image:"https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/1803f01a-2f09-e768-897e-7c9707e5c5ed/original/Classic-Eggs---Pack-Of-30-Hero-Shot.jpg",
+           title:"Classic Eggs - Pack Of 30",
+           price:"30Pieces |  ₹280 ",
+           s:"₹310",
+       },
+       {
+           Image:"https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/4d08a6f1-998d-66c8-16e7-fb9efec195ed/original/Afghani-Murgh-Seekh-Kebab(1).jpg",
+           title:"Afghani Murgh Seekh Kebab | Ready in 8 Minutes",
+           price:"4Pieces |  ₹256",
+           s:"₹300",
+       },
+       {
+           Image:"https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/715d4156-cae5-f3c5-ef78-a6e5c129ed5c/original/Lucknowi-Mutton-Galouti-Kebab-Hero-Shot-Uncooked_(1).jpg",
+           title:"Lucknowi Mutton Galouti Kebab | Ready in 8 Minutes",
+           price:"6Pieces |  ₹359",
+           s:"₹380",
+       },
+   ]
+   
+   
+   for(let i=0;i<array.length;i++)
+   {
+       let new_div=document.createElement("div");
+   
+           let image=document.createElement("img")
+          image.src=array[i].Image;
+   
+          let title=document.createElement("h5");
+          title.innerText=array[i].title;
+         
+          let price_div=document.createElement("div");
+          price_div.setAttribute("id","st")
+   
+          let price=document.createElement("p");
+          price.innerText=array[i].price;
+          
+
+          let strick=document.createElement("strike");
+          strick.innerText=array[i].s
+          strick.setAttribute("id","str");
+
+          price_div.append(price,strick);
+   
+          let btn=document.createElement("button");
+          btn.innerText="ADD";
+          btn.style.borderRadius="5px"
+         
+       
+        
+   
+          new_div.append(image,title,price_div,btn);
+          document.getElementById("product").append(new_div)
+   }
+
+   function cut()
+   {
+    document.getElementById("mySidenav").style.width="0%"
+    document.getElementById("cut").style.marginLeft="46px"
+   }
+
+
+
+
+
+//    let store=[{
+//     username:"shivam",
+//     password:"12345"
+// },
+// {
+//     username:"satyam",
+//     password:"88558"
+// },
+// {
+//     username:"vikash",
+//     password:"480136"
+// }
+
+// ]
+// let username_element=document.getElementById("username");
+// let password_element=document.getElementById("password");
+
+// let log_in_element=document.getElementById("butt");
+// let user_element=document.getElementById("logged_in_user");
+// let log_out_element=document.getElementById("log_out");
+// log_out_element.style.display="none";
+// user_element.style.display="none";
+// let flag=false;
+
+// const getDetails =()=>{
+//     event.preventDefault()
+    
+   
+  
+//     let username=username_element.value;
+//     let password=password_element.value;
+    
+   
+//     for(let i=0;i<store.length;i++){
+//         if(store[i].username==username&&store[i].password==password){
+//             flag=true;
+//         }
+//     }
+//     if(flag==true){
+        
+//         // let log_in_element=document.getElementById("butt")
+//         // console.log(log_in_element)
+//         log_in_element.style.display="none";
+//         log_out_element.style.display="block";
+
+        
+//         // let user_element=document.getElementById("logged_in_user")
+//         user_element.style.display="block"
+//         user_element.innerHTML=username;
+//         alert("log in succefull")
+//     }
+//     else{
+//         alert("something is wrong")
+//     }
+//     // console.log(username,password)
+//     // store.forEach(function(ele){
+//     //     if(ele.username==username&& ele.password==password){
+//     //         console.log("log in succesfully")
+//     //         return
+        
+//     //     }
+        
+//     // })
+
+//     const element = document.getElementById("store");
+//     element.style.display="none"
+  
+    
+// }
+
+// const element = document.getElementById("store");
+
+// function showLogin(){
+//     element.style.display = "Block";
+
+// }
+
+// const login=document.getElementById("btn")
+// const logout=()=>{
+//     flag=false;
+//     if(flag===false){
+//         log_in_element.style.display="block";
+//         user_element.style.display="none";
+//         log_out_element.style.display="none";
+//         username_element.value="";
+//         password_element.value="";
+    
+
+//     }
+
+// }
+
+
+
+let store=[{
+    username:"shivam",
+    password:"12345"
+},
+{
+    username:"satyam",
+    password:"88558"
+},
+{
+    username:"vikash",
+    password:"480136"
+}
+
+]
+let username_element=document.getElementById("username");
+let password_element=document.getElementById("password");
+
+let log_in_element=document.getElementById("butt");
+let user_element=document.getElementById("logged_in_user");
+let log_out_element=document.getElementById("log_out");
+log_out_element.style.display="none";
+user_element.style.display="none";
+let flag=false;
+
+const getDetails =()=>{
+    event.preventDefault()
+    
+   
+  
+    let username=username_element.value;
+    let password=password_element.value;
+    
+   
+    for(let i=0;i<store.length;i++){
+        if(store[i].username==username&&store[i].password==password){
+            flag=true;
+        }
+    }
+    if(flag==true){
+        
+        // let log_in_element=document.getElementById("butt")
+        // console.log(log_in_element)
+        log_in_element.style.display="none";
+        log_out_element.style.display="block";
+
+        
+        // let user_element=document.getElementById("logged_in_user")
+        user_element.style.display="block"
+        user_element.innerHTML=username;
+        alert("log in succefull")
+    }
+    else{
+        alert("something is wrong")
+    }
+    // console.log(username,password)
+    // store.forEach(function(ele){
+    //     if(ele.username==username&& ele.password==password){
+    //         console.log("log in succesfully")
+    //         return
+        
+    //     }
+        
+    // })
+
+    const element = document.getElementById("store");
+    element.style.display="none"
+  
+    
+}
+
+const element = document.getElementById("store");
+
+function showLogin(){
+    element.style.display = "Block";
+
+}
+
+const login=document.getElementById("btn_1")
+const logout=()=>{
+    flag=false;
+    if(flag===false){
+        log_in_element.style.display="block";
+        user_element.style.display="none";
+        log_out_element.style.display="none";
+        username_element.value="";
+        password_element.value="";
+    
+
+    }
+
+}

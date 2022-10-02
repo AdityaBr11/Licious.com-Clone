@@ -137,16 +137,16 @@
     gap: 8px;cursor: pointer;
 }
 .no{
-    border: 1px solid red;
+    border: 0px solid red;
     width:16px;height:16px;
     position: absolute;
-    top: 25px;right:216px;
+    top: 21px;right:232px;
     align-items: center;
     justify-content: center;text-align: center;
     border-radius:11px;
-    background-color: #db436a;
-    color: #eaeaea;
-    display:none;
+    font-size: 14px;
+    /* background-color: #db436a; */
+    color: black;
     
 }
 #search{

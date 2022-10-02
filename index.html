@@ -7,12 +7,13 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet" href="./cart/footer/style/cart.css"> -->
 </head>
 <body>
     <div id="navbar-top">
         <div class="nav">
             <div class="nav-right">
-                <p>Why Licious?</p>
+                <a style="color:#4f4f5c;" href="whylicious.html"> <p>Why Licious? </p></a>
                 <p id="d">•</p>
                 <p>Download App </p>
                 <img src="https://www.licious.in/img/rebranding/ios_app_icon.svg" alt="">
@@ -49,14 +50,19 @@
             </div>
             <div class="log">
                 <img src="https://www.licious.in/img/rebranding/profile_icon.svg" alt="">
-                <p style="margin-top:8px;">Login</p>
+                <p onclick="showLogin()" id="butt" style="margin-top:8px;">Login</p>
             </div>
-            <div class="ct">
+            <div class="ct" onclick="openNav()">
                 <img src="https://www.licious.in/img/rebranding/cart_icon.svg" alt="">
                 <div class="main-cart">
                     <h4 class="no"></h4>
                     <p style="margin-top:8px;">Cart</p>
                     <h3 style="margin-top:-7px;" id="price"></h3>
+                </div>
+
+                
+                <div>
+                    <p  id="log_out" onclick="logout()">Log out</p>
                 </div>
             </div>
         </div>
@@ -141,6 +147,123 @@
     <div id="poster">
         <img src="https://d2407na1z3fc0t.cloudfront.net/homepageStaticBanner/homepageStaticBanner_62a34b8cba7db" alt="">
     </div>
+
+
+    <!-- shivam code -->
+    <div class="card login_section" id="store">
+        <div class="header">
+            <div class="close"></div>
+            <div class="logo">
+                <a href="#">
+                    <img src="https://www.licious.in/img/rebranding/logo-white.png" alt="logo">
+                </a>
+            </div>
+        </div>
+        <div class="login_form">
+            <div class="text_centre">
+                
+                Signup/Login
+            </div>
+            
+        
+            <form id="shivam">
+                <!-- <label class="form_label" >Username</label> -->
+                <input type="username" placeholder="USERNAME" class="bom" id="username">
+                <br>
+                <!-- <label class="form_label">Password</label> -->
+                <input type="password" placeholder="PASSWORD" class="bom" id="password">
+                <br>
+                <button id="btn_1" type="button" onclick="getDetails(event)">Login</button>
+                
+            </form>
+        </div>
+    </div>
+    <!-- ankit thakur -->
+    <div id="mySidenav" class="sidenav">
+        <div id="cut" >
+            <img  onclick="cut()" id="cancelCart" src="https://www.licious.in/img/rebranding/cross.svg" alt="">
+        </div>
+        <div id ="cart_header">
+         
+         <div id="order_summary">Order Summary</div>
+        </div>
+        <div id="price_cal">
+          <div id="wish">Congratulations, Your delivery charge is waived off!!!</div>
+
+
+         <div id="itms">
+            <!-- <div class="main-div">
+                <div class="Sno">1</div>
+                <div class="mid-div">
+                    <h5>title</h5>
+                    <div>
+                        <button>500mg</button>
+                        <h4>Amount</h4>
+                    </div>
+                </div>
+                <div class="last-div">
+                    <i class="ri-close-line"></i>
+                    <div>
+                        <button>+</button>
+                        <p>1</p>
+                        <button>-</button>
+                    </div>
+                </div>
+            </div> -->
+         </div>
+        </div>
+        <div id="text">
+            <div id="text_head">Stop paying delivery charges. Join Meatopia today!</div>
+            <div id="image">
+                <a href="#"><div id="image_licious">
+                    <img src="https://www.licious.in/img/rebranding/loyalty_licious_logo.svg" alt="">
+                </div></a>
+                <a href="#"><div id="join">JOIN NOW></div></a>
+            </div>
+        </div>
+        <h4 id="product_top">You May Want To Try</h4>
+        <div id="product">
+            
+            
+        </div>
+        <div id="bill">
+            <h5 id="bill_details">BILL DETAILS</h5>
+            <div class="b">
+                <p>Subtotal</p>
+                <p id="Subtotal">0</p>
+            </div>
+            <div class="b">
+                <p>Delivery Charge</p>
+                <p>0</p>
+            </div>
+            <div class="b">
+                <p>Discount</p>
+                <p>0</p>
+            </div>
+            <hr style="margin-top: 7px;">
+
+            <div class="b">
+                <p>Total</p>
+                <p id="Total">0</p>
+            </div>
+
+        </div> 
+
+        <div  id="total">
+            <div id="sum">
+                <p>Total :</p>
+                <p id="amount"></p>
+              <a href="#"><img id="icon" src="https://www.licious.in/img/rebranding/info-icon.svg" alt=""></a>
+            </div>
+           <div id="pay_div">
+              <a id="pay" href=""><p >Proceed to checkout</p></a>
+           </div>
+           
+        </div>
+
+      </div>   
+
+      <!-- ending of thankur bhai code -->
     
 
 

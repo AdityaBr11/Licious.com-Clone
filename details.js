@@ -2,7 +2,7 @@ document.getElementById('home').addEventListener('click',function(){
     window.location.href="index.html"
 });
 
-
+let total=0;
 let data=JSON.parse(localStorage.getItem('details'));
 let title=JSON.parse(localStorage.getItem('title'));
 let title1=JSON.parse(localStorage.getItem('title1'));
@@ -67,3 +67,18 @@ let hr=document.createElement('hr');
 
 
 des.append(tit,des0,des1,des2,des3,img1,div1,hr);
+
+let cart_data=JSON.parse(localStorage.getItem('cart-items'));
+let z=cart_data.length;
+console.log(z);
+// console.log(cart_data);
+cart_data.forEach(ele=>{
+    total+=ele.price;
+    
+})
+let x=document.getElementById("price");
+x.innerText=`₹${total}`;
+let y=document.querySelector('.no');
+y.innerText=z;
+
+console.log(cart_data);

@@ -8,22 +8,25 @@
     
 }
 #navbar-top{
-    /* border: 0px solid red; */
+    border: 0px solid red;
     width: 100%;
     height: 25px;
     background-color: #eaeaea ;
     position:fixed;
     top: 0px;
+    z-index: 1;
 }
 #navbar-top p{
     cursor: pointer;
+    margin-top:9px;
 }
 .nav{
-    /* border: 0px solid red; */
+    border: 0px solid red;
     width: 75%;height: 100%;
     margin: auto;
     display: flex;
     gap: 25%;
+    align-items: center;
     
     
 }
@@ -44,6 +47,7 @@
 .nav-right img{
     width: 16px;height: 16px;
     cursor: pointer;
+    align-items: center;
 }
 .nav-left{
     border: 0px solid green;
@@ -64,16 +68,18 @@
     color: #b4b4b4;
 }
 #main-navbar{
-    /* border: 1px solid red; */
+    border: 0px solid red;
     width: 100%;
     height: 80px;
     position:fixed;
     top: 25px;
-    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    background-color: #ffff;
+    z-index: 1;
 }
 .navbar-part{
     border: 0px solid black;
-    height: 100%;width: 70%;
+    height: 100%;width: 75%;
     margin: auto;
     font-size: 12px;
     display: flex;
@@ -89,6 +95,12 @@
     display: flex;
     gap: 4px;cursor: pointer;
 }
+#place{
+    display: flex;
+    flex-direction: column;
+    border: 0px solid red;
+    height:35px;
+}
 #loc>img{
     width: 28px;height: 28px;
 }
@@ -96,11 +108,17 @@
     width: 11px;height: 9px;
 }
 .cat{
+    border: 0px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8px;
     cursor: pointer;
+}
+.cat p{
+    display: flex;
+    align-items: center;
+    
 }
 .cat:hover{
     color: red;
@@ -119,6 +137,19 @@
     justify-content: center;
     align-items: center;
     gap: 8px;cursor: pointer;
+}
+.no{
+    border: 0px solid red;
+    width:16px;height:16px;
+    position: absolute;
+    top: 21px;right:232px;
+    align-items: center;
+    justify-content: center;text-align: center;
+    border-radius:11px;
+    font-size: 14px;
+    /* background-color: #db436a; */
+    color: black;
+    
 }
 #search{
     height: 80px;
@@ -145,6 +176,8 @@
     border: none;
     outline: none; 
 }
+
+
 #sliders{
     border: 0px solid black;
     margin-top: 94px;
@@ -292,61 +325,14 @@
     margin-top: 30px;
 }
 
-#wewill{
-    padding-top: 20px;
-    width: 75%;
-    margin: auto;
-    display: block;
-    color: #4a4a4a;
-    justify-content: left;
-    text-align: left;
-}
 
-#wewill>h4{
-font-size: 14px;
-margin: 20px 0px 13.68px;
-}
-
-#wewill>p{
-    font-size: 13px;
-    margin: 13px 0px;
-}
-
-#footerlast{
-    display: flex;
-    flex-direction: column;
-    width: 75%;
-    margin: auto;
-    color: #4a4a4a;
-}
-
-#footerlast>div{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-#footerlast>div>:first-child{
-    display: flex;
-    flex-direction: row;
-    gap: 0px;
-}
-
-
-#murga{
-    display: flex;
-    height: 140px;
-    background-color: rgba(77, 75, 75, 0.87);
-    justify-content: space-between;
-}
-
-#img{
-    width: 500px;
-    height: 25%;
-    margin-top: -30px;
-    position: absolute;
-
-
+.box{
+    border: 0px solid red;
+    width: 10%;
+    height:100%;
+    margin-right:-28%;
+    background-color: #646262;
+    
 }
 #murga_img{
     border-left: none;
@@ -355,7 +341,18 @@ margin: 20px 0px 13.68px;
     border-right: 1px solid white;
     width: 50%;
     height: 80%;
+    display: flex;
     margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+#email{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-right:50px;
+    
 }
 #email_input{
     height: 30px;
@@ -364,9 +361,10 @@ margin: 20px 0px 13.68px;
    border-top: none;
    border-right: 1px solid gray;
     font-size: 20px;
- outline: none;
+   outline: none;
    color: white;
    background-color: rgba(77, 75, 75, 0.87);
+   display: flex;
  
   
     
@@ -377,13 +375,15 @@ margin: 20px 0px 13.68px;
     display: flex;
     border: 1px solid white;
     width: 450px;
-    background-color: rgba(77, 75, 75, 0.87);
+    background-color: #4d4b4b ;;
     justify-content: end;
 }
 #email_input{
     width: 323px;
     margin: auto;
     padding-left:15px ;
+    border: none;
+    background-color: #4d4b4b ;
    
    
 }
@@ -399,8 +399,9 @@ margin: 20px 0px 13.68px;
 
   
 #email_top{
-    margin-right: 80px;
-    color: white
+    margin-right:40px;
+    color: white;
+    text-align: center;
   
     
 }
@@ -411,6 +412,7 @@ margin: 20px 0px 13.68px;
 
 
 }
+
 #container{
     width: 100%;
     height: auto;
@@ -447,13 +449,25 @@ margin: 20px 0px 13.68px;
    left: 195px;
    margin-bottom: 10px;
 }
+#user_link a{
+    color: #545457;
+}
+#use_link{
+    border: 0px solid red;
+    width:120%;
+    margin-bottom: 10px;
+}
 #user-link h4,p{
     margin-bottom: 10px;
 } 
 #play_top{
-  
-    font-size: 15px;
+    border: 0px solid red;
+    font-size: 14px;
     margin-top: 20px;
+    line-height:25px;
+    width: 120%;
+    margin-right:20px;
+    font-weight: 550;
   
 }
 #contacts{
@@ -473,17 +487,21 @@ a{
     text-decoration: none;
     color: black;
 }
+#a{
+    margin-bottom:7px;
+}
 .i{
     width: 100px;
     height: 30px;
 }
 #keep{
-    
+    border: 0px solid red;
     display: flex;
     align-items: center;
     gap: 0px 10px;
     /* margin-top: -30px; */
-    margin-left: 320px;
+    margin-left: 335px;
+
 }
 .a{
     margin-top: 10px;
@@ -492,8 +510,10 @@ a{
     color: red;
 }
 #keep_in{
-    margin-top: 8px;
+    margin-top: 14px;
     margin-right: 20px;
+    font-weight: bold;
+    color: #545457;
 }
 /* #contacts{
     border-right: none;
@@ -502,25 +522,6 @@ a{
     border-left: 1px solid gray;
     
 } */
-#footerlast{
-    width: 75%;
-    justify-content: left;
-    align-items: left;
-    text-align: left;
-}
-
-#footerlast>div{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    font-size: 13px;
-}
-
-#footerlast>div>img{
-    width: 20px;
-    height:20px;;
-}
-
 #popularsearches{
     border: 1px #4a4a4a;
     /* padding-top: 40px; */
@@ -545,9 +546,12 @@ a{
     display: grid;
     grid-template-columns: repeat(5,240px);
     grid-template-rows: repeat(2,1fr);
-    row-gap: 20px;
+    row-gap: 2px;
     font-size: 12px;
     justify-content: left;
+}
+#popularchicken div{
+    font-size: 14px;
 }
 #populareggs{
     display: flex;
@@ -559,18 +563,24 @@ a{
     display: grid;
     grid-template-columns: repeat(5,240px);
     grid-template-rows: repeat(2,1fr);
-    row-gap: 20px;
+    row-gap: 8px;
     font-size: 12px;
     justify-content: left;
+}
+#popularmutton>div{
+    font-size: 14px;
 }
 
 #popularfish{
     display: grid;
     grid-template-columns: repeat(5,240px);
     grid-template-rows: repeat(2,1fr);
-    row-gap: 20px;
+    row-gap: 13px;
     font-size: 12px;
     justify-content: left;
+}
+#popularfish div{
+    font-size: 14px;
 }
 
 #popularcook{
@@ -580,6 +590,9 @@ a{
     font-size: 12px;
     justify-content: left;
 }
+#popularcook div{
+    font-size: 14px;
+}
 
 #popularexotic{
     display: grid;
@@ -588,15 +601,20 @@ a{
     font-size: 12px;
     justify-content: left;
 }
+#popularexotic div{
+    font-size: 14px;
+}
 
 #popularspreads{
     display: grid;
-    grid-template-columns: repeat(3,240px);
+    grid-template-columns: repeat(3,260px);
     row-gap: 20px;
     font-size: 12px;
     justify-content: left;
 }
-
+#popularspreads div{
+    font-size: 14px;
+}
 #popularkebabs{
     display: grid;
     grid-template-columns: repeat(2,240px);
@@ -604,12 +622,69 @@ a{
     font-size: 12px;
     justify-content: left;
 }
-
-#citiesweserve{
-    display: grid;
-    grid-template-columns: repeat(12,90px);
-    grid-template-rows: repeat(3,1fr);
-    row-gap: 20px;
-    font-size: 12px;
+#popularkebabs div{
+    font-size: 14px;
+}
+#footerlast{
+    width: 75%;
     justify-content: left;
+    align-items: left;
+    text-align: left;
+}
+
+#footerlast>div{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 13px;
+}
+
+#footerlast>div>img{
+    width: 20px;
+    height:20px;;
+}
+#wewill{
+    border: 0px solid red;
+    padding-top: 20px;
+    width: 115%;
+    margin: auto;
+    line-height:15px;
+    
+    color: #4a4a4a;
+    
+    text-align: left;
+}
+
+#wewill>h4{
+font-size: 14px;
+margin: 20px 0px 13.68px;
+}
+
+#wewill>p{
+    font-size: 13px;
+    margin: 13px 0px;
+}
+
+#footerlast{
+    border: 0px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    color: #4a4a4a;
+}
+.year{
+    margin-left:5px;
+}
+
+#footerlast>div{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#footerlast>div>:first-child{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
 }

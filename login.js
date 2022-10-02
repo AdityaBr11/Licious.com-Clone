@@ -71,22 +71,22 @@ const getDetails =()=>{
 
 const element = document.getElementById("store");
 
-function showLogin(){
-    element.style.display = "Block";
+// function showLogin(){
+//     element.style.display = "Block";
 
-}
+// }
 
-const login=document.getElementById("btn")
-const logout=()=>{
-    flag=false;
-    if(flag===false){
-        log_in_element.style.display="block";
-        user_element.style.display="none";
-        log_out_element.style.display="none";
-        username_element.value="";
-        password_element.value="";
+// const login=document.getElementById("btn_1")
+// const logout=()=>{
+//     flag=false;
+//     if(flag===false){
+//         log_in_element.style.display="block";
+//         user_element.style.display="none";
+//         log_out_element.style.display="none";
+//         username_element.value="";
+//         password_element.value="";
     
 
-    }
+//     }
 
-}
+// }
