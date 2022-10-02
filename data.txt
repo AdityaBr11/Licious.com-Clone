@@ -1,0 +1,332 @@
+ {
+        title:'Biryani and Kebab',
+        url:'https://dao54xqhg9jfa.cloudfront.net/OMS-Category/0b7ccd0f-0811-c38b-5420-0317c8006bda/original/Biryani_(2).png',
+        data1:[
+            {
+                title1:"Chicken Kebab and Biryani Combo",
+                url1:"https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/467fc795-de40-e455-e8b2-2270b039dd5c/original/combo.jpg?format=webp",
+                price:398,
+                quotes:"Murgh Seekh Kebab & Hyderabadi Chicken Biryani",
+                data2:[
+                    {
+                        des:"Licious Goat Mince is obtained from cuts of boneless goat meat that has been ground perfectly.",
+                        des1:"Grab your pressure cooker, add some long-grained superior quality basmati rice and get cooking with our ready-to-cook Hyderabadi Chicken Biryani (Mini) Meat & Masala Mix.",
+                        des2:"The authentic Afghani Murgh Seekh Kebab consists of meat minced from tender cuts of chicken. Ideal for pan-frying or grilling, the kebab turns charred on the outside and succulent on the inside when cooked correctly.",
+                        des3:"Afghani Murgh Seekh Kebab - FSSAI Category Proprietary Foods 8.3.2 - Heat-treated processed comminuted meat and poultry products.",
+                        
+                        title2:'abadi Chicken Biryani (Mini) | Meat & Masala Mix',
+                        price:398,
+                        url:"https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/12794fe2-aff1-2e06-316a-2419c43221ff/original/500gms_(9).jpg?format=webp"
+                    }
+                ]
+            },
+
+            {
+                title1:"Kolkata Chicken Biryani | Meat & Masala Mix",
+                url1:"https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/554185e9-185d-3c66-e059-5459e8a0741a/original/Kolkata-CB-500-cooked_(1).jpg?format=webp",
+                price:279,
+                quantity: "500gms",
+                quotes:"FragnantJuicy",
+                data2:[
+                    {
+                        des:"Aromatic, spicy & rich with juicy mutton cuts, the Hyderabadi biryani is a jewel from the Nizam's kitchen. Bring the flavours of this classic to your table with the Licious ready-to-cook Hyderabadi Mutton Biryani.", 
+                        des1:"We've combined the goodness of aromatic spices like cardamom, cloves & more that’s sure to transport you right back to the Nizam's table. Whip up a biryani in minutes now because our master chefs have made it simple, easy and convenient for you. So, now you can be biryani ready in 3 simple steps and make up to a kilo of biryani.",
+                        des2:"With Licious ready-to-cook Biryanis, you don't have to worry about what pieces you'll get; we've included the best ones in the pack already. Each pack also contains two sachets of biryani seasoning that will add a host of flavours to your biryani. We recommend using superior quality, long-grained basmati rice. The good thing is, you can make it in a pressure cooker for easy cleanup.",
+                        des3:"With Licious ready-to-cook Biryanis, you don't have to worry about what pieces you'll get; we've included the best ones in the pack already. Each pack also contains two sachets of biryani seasoning that will add a host of flavours to your biryani. We recommend using superior quality, long-grained basmati rice. The good thing is, you can make it in a pressure cooker for easy cleanup.",
+                        
+                        title2:'abadi Chicken Biryani (Mini) | Meat & Masala Mix',
+                        price:398,
+                        url:"https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/12794fe2-aff1-2e06-316a-2419c43221ff/original/500gms_(9).jpg?format=webp"
+                    }
+                ]
+            },
+
+            {
+                title1:"Hariyali Murgh & Biryani Combo",
+                url1:"https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/07ab67b9-73af-1c8b-e0df-0c8919393c61/original/Hariyali.jpg?format=webp",
+                price:423
+                quantity: "500gms",
+                quotes:""
+                data2:[
+                    {
+                        des:"Get the best of both worlds with the spicy ready-to-cook Hariyali Murgh Tikka and the delicately fragrant Awadhi Chicken Biryani (Mini) Meat & Masala Mix.", 
+                        des1:"Our Hariyali Murgh Tikka consists of boneless pieces of chicken, which are marinated in a fresh green herb and spice base. To cook, simply toss in a pan for 5-6 minutes with water or roast it in the oven until it turns brownish-green.",
+                        des2:"Our master chefs have combined a variety of fragrant spices and juicy cuts of tender chicken to make the delicious Awadhi Chicken Biryani (Mini) Meat & Masala Mix. Grab your pressure cooker, add some long-grained superior quality basmati rice and get cooking!",
+                        des3:"Hariyali Murgh Tikka - FSSAI Category Proprietary Foods 8.2.2 - Heat-treated processed meat and poultry products in whole pieces or cuts.",
+                        
+                        title2:'Awadhi Chicken Biryani (Mini) | Meat & Masala Mix',
+                        price:398,
+                        url:"https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/bb0a66e4-bc9f-14bb-5ba3-30f3103c6ce4/original/250gms_(10).jpg?format=webp"
+                    }
+                ]
+            },
+
+            {
+                title1:"Mutton Biryani & Tikka Combo",
+                url1:"https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/8f48fba5-6c40-9f3a-b0dd-a2f7d4157a16/original/motton.jpg?format=webp",
+                price:448
+                quantity: "500gms"
+                quotes:"",
+                data2:[
+                    {
+                        des:"A meaty meal is always in demand, and what better than the Hyderabadi Mutton Biryani & Tikka Combo! Get the spicy goodness of the ready-to-cook Hyderabadi Mutton Biryani (Mini) Meat & Masala Mix with the delicious Chicken Tikka (Mini).", 
+                        des1:"We've combined your favorite pieces of mutton with all the goodness of aromatic spices like cardamom, cloves & more. Just add some long-grained superior quality basmati rice and you can be biryani-ready in 3 simple steps.",
+                        des2:"This mini pack of ready-to-cook Chicken Tikka contains 5-7 freshly marinated boneless chicken breast pieces, which have been marinated in a tangy and creamy mix. Pan-fry it for a few minutes until golden brown and serve.",
+                        des3:"Chicken Tikka - FSSAI Category Proprietary Foods 8.2.1 - Non-heat treated processed meat and poultry products in whole pieces or cuts.",
+                        
+                        title2:'Hyderabadi Mutton Biryani (Mini) | Meat & Masala Mix',
+                        price:448,
+                        url:"https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/c9355760-93c1-f4d4-c6b0-fbad3767ca6a/original/500gms_(8).jpg?format=webp"
+                    }
+                ]
+            },
+
+             {
+                title1:"Awadhi Chicken Biryani | Meat & Masala Mix",
+                url1:"https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/4b684f04-8b02-68b8-5e43-eea7f2560af4/original/500gms_(2).jpg?format=webp",
+                price:419
+                quantity: "500gms",
+                quotes:"AromaticSweet",
+                data2:[
+                    {
+                        des:"Delightfully fragrant and delicately flavourful, the Awadhi Biryani originated in Lucknow and slowly won the hearts of Biryani lovers across the world. Bring the flavours of this classic offering from Lucknow to your home with the Licious ready-to-cook Awadhi Chicken Biryani.", 
+                        des1:"Our master chefs have combined a variety of fragrant spices, juicy cuts of tender chicken and other ingredients. They are batch-crafted by our master chefs, so you can easily make up to one kilo biryani. You don't have to worry about what pieces you'll get; we've included the best ones in the pack already.",
+                        des2:"Our master chefs have combined a variety of fragrant spices, juicy cuts of tender chicken and other ingredients. They are batch-crafted by our master chefs, so you can easily make up to one kilo biryani. You don't have to worry about what pieces you'll get; we've included the best ones in the pack already.",
+                        des3:"Order Licious ready-to-cook Awadhi Chicken Biryani now and get speedy home delivery.",
+                        
+                        title2:'',
+                        price:,
+                        url:""
+                    }
+                ]
+            },
+
+            {
+                title1:"Afghani Murgh Seekh Kebab | Ready in 8 Minutes",
+                url1:"https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/4d08a6f1-998d-66c8-16e7-fb9efec195ed/original/Afghani-Murgh-Seekh-Kebab(1).jpg?format=webp",
+                price:269,
+                quantity: "500gms",
+                quotes:"Medium spicyBoneless",
+                data2:[
+                    {
+                        des:"Meat minced from tender cuts of the chicken is shaped in to perfect ready-to-cook kebabs after it is mixed with spices and herbs. The authentic Afghani Murgh Seekh Kebab is ideal for pan-frying or grilling. When evenly cooked, the kebab turns charred on the outside and succulent on the inside. Order Afghani Murgh Seekh Kebabs from Licious and get them home delivered..", 
+                        des1:"Note:",
+                        des2:"Note:",
+                        des3:"",
+                        
+                        title2:'',
+                        price:,
+                        url:""
+                    }
+                ]
+            },
+
+             {
+                title1:"Tangdi Chicken & Biryani Combo",
+                url1:"https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/38ff9cae-d85a-23f2-c385-81725d125f45/original/Tangdi.jpg?format=webp",
+                price:440,
+                quantity: "500gms",
+                quotes:"Medium Spicy Boneless",
+                data2:[
+                    {
+                        des:"The leg piece is often the most-desired cut in a meaty meal. Now, get the best of it with the Tangdi Chicken & Biryani Combo!", 
+                        des1:"With the Licious ready-to-cook Kolkata Chicken Biryani (Mini) Meat & Masala Mix, just add some long-grained, superior quality rice along in a pressure cooker and your perfect biryani is ready!",
+                        des2:"The Chicken Tangdi Kebab is marinated in spices such as mace, fennel and cardamom and then pre-smoked and roasted over charcoal. All you need to do is grill or pan-fry it and serve with a squeeze of lime.",
+                        des3:"Chicken Tangdi Kebab - FSSAI Category Proprietary Foods 8.2.2 - Heat-treated processed meat and poultry products in whole pieces or cuts.",
+                        
+                        title2:'Chicken Tangdi Kebab | Ready in 8 Minutes',
+                        price:,
+                        url:"https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/2aa147d9-8729-e5b6-5428-a56ea68198e0/original/Chicken-Tangdi-Kebab-Tag.jpg?format=webp"
+                    }
+                ]
+            },
+
+            {
+                title1:"Awadhi Mutton Biryani | Meat & Masala Mix",
+                url1:"https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/30427abd-740f-9228-4168-4b468b34bbf7/original/New.jpg?format=webp",
+                price:649,
+                quantity: "500gms",
+                quotes:"Aromatic | Sweet",
+                data2:[
+                    {
+                        des:"Lucknow is known for its Nawabi specialities and no trip to this famed city is complete without its delicious Biryanis. With the Licious ready-to-cook Awadhi Mutton Biryani, you can now bring this aromatic, slighty sweet & fragrant classic home in 3 simple steps.", 
+                        des1:"To make this dish from scratch, you need a host of spices and ample time. However, with our Biryani, the only thing you need is a cooker. You don't have to worry about what pieces you'll get; we've included the best ones in the pack already.",
+                        des2:"To make this dish from scratch, you need a host of spices and ample time. However, with our Biryani, the only thing you need is a cooker. You don't have to worry about what pieces you'll get; we've included the best ones in the pack already.",
+                        des3:"You can't go wrong with long-grained, superior quality basmati rice, that's why we recommend it for this dish. Grab your pressure cooker and get cooking! In each pack, you will get fresh & tender mutton marinated in authentic spices, there are 2 sachets of biryani masala that will elevate your dish.",
+                        
+                        title2:'',
+                        price:,
+                        url:""
+                    }
+                ]
+            },
+        ]
+    },
+
+
+     {
+        title:'Eggs',
+        url:'https://dao54xqhg9jfa.cloudfront.net/OMS-Category/1bd08fae-c971-390a-ce8a-6f6502f5bd0d/original/Eggs_(1).png',
+        data1:[
+            {
+                title1:"Classic Eggs - Pack Of 12",
+                url1:"https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/a917c576-c350-375a-afad-4882c7fd85a8/original/Classic-Eggs---Pack-of-12-Hero-Shot.jpg?format=webp",
+                price:125,
+                quantity: "No. of pieces 12",
+                quotes:"White Shelled EggsPale Yellow Yolk",
+                data2:[
+                    {
+                        des:"Eggs are a very versatile source of protein for your daily meals. An omelette, scrambled eggs or even sunny side-up- the possibilities are endless!",
+                        des1:"Farm fresh, Classic Eggs from Licious are obtained from hormone-free, healthy chickens raised in a natural environment. Perfect for your breakfast needs, try these classic eggs.",
+                        des2:"Order fresh classic eggs online from Licious today and get them delivered to your home.",
+                        des3:"Afghani Murgh Seekh Kebab - FSSAI Category Proprietary Foods 8.3.2 - Heat-treated processed comminuted meat and poultry products.",
+                        
+                        title2:'',
+                        price:,
+                        url:""
+                    }
+                ]
+            },
+
+            {
+                title1:"Country Eggs - Pack Of 6",
+                url1:"https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/4a988d54-529d-60de-c666-e8ab75a16e5c/original/Country-Eggs---Pack-Of-6-Hero-Shot.jpg?format=webp",
+                price:85,
+                quantity: "No. of pieces 6",
+                quotes:"Country Eggs - Pack Of 6",
+                data2:[
+                    {
+                        des:"Laid by country chickens, Country Eggs are quite eye-catching. The shell colour is between off-white and light brown. The yolks vary from light to deep yellow.", 
+                        des1:"They make a perfect addition to your breakfasts, for dishes such as scrambled eggs, omelettes, eggs sunny-side-up and more. All Licious eggs are antibiotic residue-free, thoroughly hand-checked and packed carefully to ensure they arrive safely to your doorstep.",
+                        des2:"Our eggs are 100% cleaned, sorted and are passed through stringent quality checks to make it safe for you to consume. However, Country Eggs may contain minor blood spots and are a natural phenomenon",
+                        des3:"Order Country Eggs - Pack of 6 and get them home delivered!";
+                        
+                        title2:'',
+                        price:,
+                        url:""
+                    }
+                ]
+            },
+
+            {
+                title1:"Chunky Garlic Mustard Egg Spread",
+                url1:"https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_156ko17lb9z/1/prod_display_image/1620095732.3083--2021-05-0408:05:32--738",
+                price:104
+                quantity: "No. of pieces 1",
+                quotes:"Real Egg | Authentic | Creamy"
+                data2:[
+                    {
+                        des:"Mustard, mayonnaise and freshly cooked chunks of egg come together to create a delicious spread, perfect to be had in a snack at any time of the day! This ready-to-eat Chunky Garlic Mustard Egg Spread also contains garlic, honey, black pepper & jalapenos, offering a multitude of flavours in every bite.",
+                        des2:"High in protein, this spread has zero trans-fat & are free of artificial preservatives, making it safe for both and your children to enjoy! Order Chunky Garlic Mustard Egg Spread online on Licious and use it to make delicious salads, rolls, pita sandwiches & more!",
+                        des3:"Disclaimer: Best Before 30 Days from the date of manufacture. Allergen information: Contains Eggs, Mustard",
+                        
+                        title2:'',
+                        price:,
+                        url:""
+                    }
+                ]
+            },
+
+            {
+                title1:"Chunky Creamy Tomato Egg Spread",
+                url1:"https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/91222c8d-38b5-ed3f-b845-3c732cef4ed5/original/Chunky-Creamy-Tomato-Egg---Bottle.jpg?format=webp,
+                price:104
+                quantity: "No. of pieces 1"
+                quotes:"Real Egg | Authentic | Creamy",
+                data2:[
+                    {
+                        des:"A creamy base of mayonnaise, ketchup, chilli sauce, diced onions and real chunks of perfectly cooked eggs, this spread is a must-have at your breakfast table!
+Ready-to-eat, the Chunky Creamy Tomato Egg Spread is best-used to make delicious sandwiches, wraps, tortillas and more. Our chunky egg spreads have zero trans-fat & and free of artificial preservatives - perfect to make worry-free, easy & quick snacks for your kids! Order Chunky Creamy Tomato Egg Spread online on Licious and have it delivered to your doorstep!", 
+                        des1:"Disclaimer: Best Before 30 Days from the date of manufacture.
+Allergen information: Contains Eggs",
+                        des2:"",
+                        des3:"",
+                        
+                        title2:'',
+                        price:,
+                        url:""
+                    }
+                ]
+            },
+
+             {
+                title1:"Chunky Continental Egg Spread",
+                url1:"https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_1puko17mted/1/prod_image/1620096151.6666--2021-05-0408:12:31--738",
+                price:112
+                quantity: "No. of pieces 1",
+                quotes:"Real Egg | Authentic | Creamy",
+                data2:[
+                    {
+                        des:"Savour the combination of creamy mayonnaise & chunky, freshly cooked eggs in this delightful spread! This ready-to-eat Chunky Continental Egg Spread is flavoured with garlic and pepper, making for a simple yet delicious egg spread.", 
+                        des1:"High in protein, this spread has no trans-fat & is free of artificial preservatives, perfect for safe & healthy snacks and meals! Chunky Continental Egg Spread online on Licious and use it to make delicious sandwiches, taco toppings, kaati rolls & more!",
+                        des2:"Disclaimer: Best Before 30 Days from the date of manufacture.",
+                        des3:"Allergen information: Contains Eggs",
+                        
+                        title2:'',
+                        price:,
+                        url:""
+                    }
+                ]
+            },
+
+             {
+                title1:"Quail Eggs - Pack Of 12",
+                url1:"https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_mukg6ljmu7/1/prod_image/1607935622.8416--2020-12-1414:17:02--738?format=webp",
+                price:89
+                quantity: "No. of pieces 12",
+                quotes:"Small eggs | Brown Spots & Specklecs",
+                data2:[
+                    {
+                        des:"A delicacy in some parts of the world, Quail eggs are small in size and have shells with brown speckles and spots. They are fresh, a good source of protein and most commonly used in Japanese cuisine, to make Tamago for Sushi. These eggs have been sourced from healthy, farm-raised Quail. Available as a pack of 12.", 
+                        des1:"",
+                        des3:"",
+                        des3:"",
+                        
+                        title2:'',
+                        price:,
+                        url:""
+                    }
+                ]
+            },
+
+            {
+                title1:"Duck Eggs - Pack Of 6",
+                url1:"https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/a4e20428-615d-2124-1174-78196aeb9ed9/original/Hero-Shotjpg.jpg?format=webp",
+                price:145
+                quantity: "No. of pieces 6",
+                quotes:"Dark Yellow Yolk",
+                data2:[
+                    {
+                        des:"These Duck Eggs are100% naturally laid, eggs from healthy ducks. Our ducks are raised on bio-secure farms and fed natural, vegetarian feeds.", 
+                        des1:"All Licious eggs are thoroughly hand-checked and packed carefully to ensure they arrive safely to your doorstep.",
+                        des3:"Our 6 pack of eggs is a good choice for small families or singles that love eggs for breakfast. Use them for omelettes, boil, poach or fry them. They're great for bakers too!",
+                        des3:"Order Duck Eggs - Pack Of 6 and get them home delivered!",
+                        
+                        title2:'',
+                        price:,
+                        url:""
+                    }
+                ]
+            },
+
+             {
+                title1:"Kadaknath Eggs - Pack Of 6",
+                url1:"https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/6c48ee52-ecc5-dd1b-d766-b034e508563a/original/Kadaknath-Eggs--Hero-Shot.jpg?format=webp",
+                price: 309
+                quantity: "No. of pieces 6",
+                quotes:"Protein Rich | Free Range",
+                data2:[
+                    {
+                        des:"Eggs are a very versatile source of protein for your daily meals. An omelette for breakfast, egg fried rice for lunch and a wholesome egg curry for dinner - the possibilities are endless.", 
+                        des1:"Licious Kadaknath eggs are naturally laid, not cultured, by healthy hens on our biosecure farms. These eggs come from the rare breed of Kadaknath chickens.This pack of 6 eggs are a must-try!",
+                        des3:"Order fresh brown eggs online from Licious today and get them delivered to your home",
+                        des3:"",
+                        
+                        title2:'',
+                        price:,
+                        url:""
+                    }
+                ]
+            },
+        ]
+    },
