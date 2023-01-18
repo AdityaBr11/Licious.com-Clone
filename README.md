@@ -1,12 +1,9 @@
 
-Licious is a online food delivery sites . it is an group project that i built in my construct week within the 4 days.
-
 <h1 align="center">Licious.com-Clone</h1>
 
-<br />
+Licious is a online food delivery sites . it is an group project that i built in my construct week within the 4 days.
 
 <h2 align="center">🖥️ Tech Stack</h2>
-
 
 <h4 align="center">Frontend:</h4>
 
@@ -17,15 +14,12 @@ Licious is a online food delivery sites . it is an group project that i built in
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html5" />
 </p>
 
-
 <h4 align="center">Deployed On:</h4>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="vercel" />
   <img src="https://img.shields.io/badge/vercel-430098?style=for-the-badge&logo=vercel&logoColor=white" alt="heroku" />
 </p>
-
-
 
 <h3 align="center"><a href="https://starlit-gumption-871ca8.netlify.app/"><strong>Want to see live preview »</strong></a></h3>
 <br />
@@ -51,8 +45,7 @@ Licious is a online food delivery sites . it is an group project that i built in
 ## Glimpses of Licious.com-Clone :
 <table>
   <tr>
-    <td><img src="https://
-https://i.ibb.co/9vNZ25x/l1.png"  alt="home" /></td>
+    <td><img src="https://https://i.ibb.co/9vNZ25x/l1.png"  alt="" /></td>
   </tr>
   <br/>
   <tr>
@@ -75,24 +68,14 @@ https://i.ibb.co/9vNZ25x/l1.png"  alt="home" /></td>
 </table>
 
 <br />
-
-
 ### Tools used on this project
 
 - Visual Studio Code
-
 <br />
-
-
-
 ## Contact
-
 If you want to contact me, you can reach me through below handles. <br />
 [![linkedin](https://img.shields.io/badge/Aditya_Anand-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-anand-2b795a239/)
 [![GitHub](https://img.shields.io/badge/Aditya_Anand-0077B5?style=for-the-badge&logo=Github&logoColor=white)](https://github.com/AdityaBr11/)
-
-
-
 
 ## Show your support
 
