@@ -73,8 +73,12 @@ Licious is a online food delivery sites . it is an group project that i built in
 - Visual Studio Code
 <br />
 ## Contact
-If you want to contact me, you can reach me through below handles. <br />
+
+If you want to contact me, you can reach me through below handles. 
+<br />
+
 [![linkedin](https://img.shields.io/badge/Aditya_Anand-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-anand-2b795a239/)
+
 [![GitHub](https://img.shields.io/badge/Aditya_Anand-0077B5?style=for-the-badge&logo=Github&logoColor=white)](https://github.com/AdityaBr11/)
 
 ## Show your support
