@@ -1,28 +1,31 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>licious-login</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
 </head>
-<style>
-    
-</style>
+
 <body>
     <div id="navbar-top">
         <div class="nav">
             <div class="nav-right">
-                <p>Why Licious?</p>
+                <a style="color:#4f4f5c;">
+                    <p>Why Licious? </p>
+                </a>
                 <p id="d">•</p>
                 <p>Download App </p>
-                <img src="https://www.licious.in/img/rebranding/ios_app_icon.svg" alt="">
-                <img src="https://www.licious.in/img/rebranding/android_app_icon.svg" alt="">
+                <i class="ri-google-play-fill"></i>
+                <i class="ri-apps-line"></i>
             </div>
             <div class="nav-left">
                 <p>FSSC 22000 Certification</p>
                 <p id="d">•</p>
-                <p>About Us</p>
+                <a href="/aboutus.html">About Us</a>
                 <p id="d">•</p>
                 <p>Careers @Licious</p>
                 <p id="d">•</p>
@@ -32,66 +35,226 @@
     </div>
     <div id="main-navbar">
         <div class="navbar-part">
-            <img src="https://www.licious.in/img/rebranding/licious-logo.svg" alt="">
+            <img onclick={main()} src="https://www.licious.in/image/rebranding/svg/licious-logo.svg" alt="">
             <div id="loc">
-                <img src="https://www.licious.in/img/rebranding/location_icon.svg" alt="">
+              <i style="font-size: 18px;" class="ri-map-pin-line"></i>
                 <div id="place">
-                    <p>BENGALURU</p>
-                    <p>Bangalore, Karnatak...<img src="https://www.licious.in/img/rebranding/down-arrow.png" alt=""></p>
+                    <p>BENGALURU <svg style="fill: #4f4f5cad;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            width="24" height="24">
+                            <path fill="none" d="M0 0h24v24H0z" />
+                            <path d="M12 13.172l4.95-4.95 1.414 1.414L12 16 5.636 9.636 7.05 8.222z" />
+                        </svg> </p>
+                    <p>Bangalore, Karnatak...</p>
                 </div>
             </div>
             <div id="search">
                 <input type="text" placeholder="Search for any delicious product">
-                <img src="https://www.licious.in/img/rebranding/search_icon.svg" alt="">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path
+                        d="M11 2c4.968 0 9 4.032 9 9s-4.032 9-9 9-9-4.032-9-9 4.032-9 9-9zm0 16c3.867 0 7-3.133 7-7 0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7zm8.485.071l2.829 2.828-1.415 1.415-2.828-2.829 1.414-1.414z" />
+                </svg>
             </div>
             <div class="cat">
-                <img src="https://www.licious.in/img/rebranding/category-dropdown-icon.svg" alt="">
-                <p>Categories</p>
+                <img src="https://www.licious.in/image/rebranding/svg/categories-grey.svg" alt="">
+                <p style="margin-top:8px;">Categories</p>
             </div>
-            <div class="log">
-                <img src="https://www.licious.in/img/rebranding/profile_icon.svg" alt="">
-                <p onclick="showLogin()" id="butt">Login</p>
-                <p id="logged_in_user"></p>
-            </div>
-            <div class="ct">
-                <img src="https://www.licious.in/img/rebranding/cart_icon.svg" alt="">
-                <p>Cart</p>
-            </div>
-            <div>
-                <p  id="log_out" onclick="logout()">Log out</p>
-            </div>
-        </div>
-    </div>
-<div class="card login_section" id="store">
-    <div class="header">
-        <div class="close"></div>
-        <div class="logo">
-            <a href="#">
-                <img src="https://www.licious.in/img/rebranding/logo-white.png" alt="logo">
+            <a class="log" href="login.html">
+                <img src="https://www.licious.in/image/rebranding/svg/profile-grey.svg" alt="">
+                <p  style="margin-top:8px;">Login</p>
             </a>
+            <div class="ct" onclick="openNav()">
+                <img src="https://www.licious.in/image/rebranding/svg/cart.svg" alt="">
+                <div class="main-cart">
+                    <h4 class="no"></h4>
+                    <p style="margin-top:8px;">Cart</p>
+                    <h3 style="margin-top:-7px;" id="price"></h3>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="login_form">
-        <div class="text_centre">
-            
-            Signup/Login
+
+
+    <div class="main">
+        <div class="filter">
+            <div class="wrapper login">
+                <div class="container">
+                    <div class="col-left">
+                        <div class="login-text">
+                            <h2>Welcome!</h2>
+                            <p class="msg">Create your account.<br>For Free!</p> <a  class="btn">Sign Up</a>
+                        </div>
+                    </div>
+                    <div class="col-right-login">
+                        <div class="login-form">
+                            <h2>Login</h2>
+                            <form action="">
+                                <p> <label>Username/Email address<span>*</span></label> <input name="email" id="login-email" type="email" placeholder="Username or Email" required> </p>
+                                <p> <label>Password<span>*</span></label> <input type="password" id="login-password" placeholder="Password" required> </p>
+                                <p> <input type="submit" value="Login" id="login"> </p>
+                                <p> <a href="">Forgot password?</a> </p>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-right-signup">
+                        <div class="login-form">
+                            <h2>Signup</h2>
+                            <form action="" id="form">
+                                <p> <label>Username<span>*</span></label> <input type="text" id="name" placeholder="Username" required> </p>
+                                <p> <label>Email address<span>*</span></label> <input type="email" id="email" placeholder="Email" required> </p>
+                                <p> <label>Password<span>*</span></label> <input type="password" id="password" placeholder="Password" required> </p>
+                                <p> <input type="submit" value="Sign In" id="signup"> </p>
+                                <p> <a href="">Already have an Account? then Click on login</a> </p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- buttom part  -->
+
+    <div id="murga">
+        <div class="box"></div>
+        <div id="murga_img">
+            <img id="img" src="https://i.ibb.co/ZHZMzSL/banner.jpg" alt="banner">
+        </div>
+        <div id="email">
+            <h3 id="email_top">Be the first to know about our deals and offers</h3>
+            <div id="submit_div">
+                <input type="text" id="email_input" placeholder="Enter Phone Number / Email ">
+                <button id="submit">Submit</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div style="border:0px solid red;width:100%">
+        <div id="wewill">
+            <h4>We will sell only the meat that we would eat ourselves.</h4>
+            <p style="color:rgba(128, 128, 128, 0.721)">At Licious, we’re big meat-lovers. And by big, we mean huge. So
+                when it comes to the meat we put on your plate, we’re extremely picky. Every single product is
+                handpicked by a team with years of experience.</p>
+            <h4>If it’s not fresh, we won’t sell it</h4>
+            <p style="color:rgba(128, 128, 128, 0.721)">For meat to stay fresh and retain its natural juices, it needs
+                to be stored at a temperature between 0° and 5°C. We maintain this temperature from the time we procure
+                the product to cleaning, cutting and storing it,<br>until it leaves for delivery. And even when it’s out
+                for delivery, we keep it chilled right up to your doorstep.Did we mention that we’re obsessed?</p>
+            <h4>We will charge only for what you buy</h4>
+            <p style="color:rgba(128, 128, 128, 0.721)">Doesn’t everyone do this? Not really. Most other places first
+                weigh the meat, then cut up the pieces, and throw out the parts which aren’t fit to eat, such as offal,
+                gizzard, wingtips, etc. But you still pay based on<br> the original weight even though what you finally
+                get is 10% to 30% less</p>
+        </div>
+
+        <div id="footerlast">
+            <div style="margin-bottom:7px;">
+                <i class="ri-government-line"></i>
+                <h4 class="year">2022 Delightful Gourmet Pvt Ltd. All Rights Reserved.</h4>
+                <br></br>
+            </div>
+            <div style="margin-bottom:30px;">
+                <p style="color:rgba(128, 128, 128, 0.721)">Licious is your one-stop fresh meat delivery shop. In here,
+                    you get nothing but the freshest meat & seafood, delivered straight to your doorstep. Now you can
+                    buy meat online anytime at your convenience. Indulge in our diverse selection: Chicken, Mutton,
+                    Seafood (Fish, Prawns, Crabs), Marinades & Cold Cuts. All our products are completely natural and
+                    healthy. Once you've experienced Licious, you'll never go back to the old way of buying meat and
+                    seafood.</p><br><br>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__addr">
+          <h1 class="footer__logo"> <img src="https://www.licious.in/image/rebranding/svg/licious-logo.svg" alt=""> </h1>
+              
+          <h2>Contact</h2>
+          
+          <address>
+            850001 Banglore . Masai School 22193-10212<br>
+                
+            <a class="footer__btn" href="mailto:aditya.anandBr11@gmail.com">Email Us</a>
+          </address>
         </div>
         
-    
-        <form id="shivam">
-            <!-- <label class="form_label" >Username</label> -->
-            <input type="username" placeholder="USERNAME" class="box" id="username">
-            <br>
-            <!-- <label class="form_label">Password</label> -->
-            <input type="password" placeholder="PASSWORD" class="box" id="password">
-            <br>
-            <button id="btn" type="button" onclick="getDetails(event)">Login</button>
+        <ul class="footer__nav">
+          <li class="nav__item">
+            <h2 class="nav__title">Dishes</h2>
+      
+            <ul class="nav__ul">
+              <li>
+                <a href="#">Mutton</a>
+              </li>
+      
+              <li>
+                <a href="#">Chicken</a>
+              </li>
+                  
+              <li>
+                <a href="#">Many mores.</a>
+              </li>
+            </ul>
+          </li>
+          
+          <li class="nav__item nav__item--extra">
+            <h2 class="nav__title">Available</h2>
             
-        </form>
-    </div>
-</div>
-
-    
+            <ul class="nav__ul nav__ul--extra">
+              <li>
+                <a href="#">Banglore</a>
+              </li>
+              
+              <li>
+                <a href="#">Kolkata</a>
+              </li>
+              
+              <li>
+                <a href="#">Pune</a>
+              </li>
+              
+              <li>
+                <a href="#">Delhi</a>
+              </li>
+              
+              <li>
+                <a href="#">Purnea Bihar</a>
+              </li>
+              
+              <li>
+                <a href="#">Jaipur</a>
+              </li>
+            </ul>
+          </li>
+          
+          <li class="nav__item">
+            <h2 class="nav__title">Legal</h2>
+            
+            <ul class="nav__ul">
+              <li>
+                <a href="#">Privacy Policy</a>
+              </li>
+              
+              <li>
+                <a href="#">Terms of Use</a>
+              </li>
+              
+              <li>
+                <a href="#">Sitemap</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        
+        <div class="legal">
+          <p>&copy; 2021 by Aditya. All rights reserved.</p>
+          
+        </div>
+      </footer>
 </body>
+
 </html>
 <script src="login.js"></script>
