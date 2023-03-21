@@ -49,7 +49,6 @@ function logind(event) {
     }
   }
 
-}
 
 let form = document.querySelector("#form");
 
@@ -70,4 +69,5 @@ function Signup(e) {
   }
 
   console.log(obj);
+}
 }

@@ -1,9 +1,11 @@
 document.getElementById('home').addEventListener('click',function(){
     window.location.href="index.html"
 });
+
 let arr=JSON.parse(localStorage.getItem('cart-items'))||[];;
 let total=0;
 let disPrice=0;
+
 
 let data=JSON.parse(localStorage.getItem('details'));
 let singleItem=JSON.parse(localStorage.getItem('data'));
@@ -267,4 +269,5 @@ function cut() {
   document.getElementById("mySidenav").style.width = "0%";
   document.getElementById("cut").style.marginLeft = "46px";
 }
+
 
